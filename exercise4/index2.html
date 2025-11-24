@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of regular triangle</title>
+    <script>
+      var a = parseInt(prompt("Enter the length of side a of the triangle:"));
+      var b = parseInt(prompt("Enter the length of side b of the triangle:"));
+      var c = parseInt(prompt("Enter the length of side c of the triangle:"));
+      var s = (a + b + c) / 2;
+      var area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+      console.log("The area of the regular triangle is: " + area);
+    </script>
+  </head>
+  <body></body>
+</html>
