@@ -5,3 +5,4 @@
 3-To find square root of a number. <br>
 4-(i)-Area of triangle, (ii)-Area of regular triangle <br>
 5-(i)-Swap two Number using temp, (ii)-swap two number without temp <br>
+6-Generate a Random number using math.random <br>
