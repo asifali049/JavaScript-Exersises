@@ -6,3 +6,5 @@
 4-(i)-Area of triangle, (ii)-Area of regular triangle <br>
 5-(i)-Swap two Number using temp, (ii)-swap two number without temp <br>
 6-Generate a Random number using math.random <br>
+7-Convert kms to miles using javascript funtion<br>
+8-Check ig s number id positive, negative or zero.

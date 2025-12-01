@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert kms to miles</title>
+    <script>
+      function convertKmToMiles(km) {
+        var miles = km * 0.621371;
+        return miles;
+      }
+
+      var kilometers = prompt("Enter distance in kilometers:");
+      var miles = convertKmToMiles(kilometers);
+      console.log(kilometers + " kilometers is equal to " + miles + " miles.");
+    </script>
+  </head>
+  <body></body>
+</html>
