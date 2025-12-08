@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odd or Even</title>
+  </head>
+  <script>
+    function check() {
+      var number = document.getElementById("data").value;
+      if (number % 2 == 0) {
+        document.getElementById("res").innerHTML = number + " is Even";
+      } else {
+        document.getElementById("res").innerHTML = number + " is Odd";
+      }
+    }
+  </script>
+  <body>
+    <input type="number" id="data" placeholder="Enter a number" />
+    <button onclick="check()">check</button>
+    <h4 id="res"></h4>
+  </body>
+</html>

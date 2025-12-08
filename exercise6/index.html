@@ -6,11 +6,11 @@
     <title>Generate a Random number</title>
   </head>
   <script>
-    var num = Math.random();
-    console.log(num);
-    var num1 = num * (1000000 - 1) * 1;
-
-    console.log("Random number for six digit: " + Math.floor(num1));
+    var x = Math.random();
+    console.log(`Before calculation- ${x}`);
+    x = x * 10000;
+    console.log(`After calculation- ${x}`);
+    console.log(`Floor calculation- ${Math.floor(x)}`);
   </script>
   <body></body>
 </html>
