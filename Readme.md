@@ -7,6 +7,5 @@
 5-(i)-Swap two Number using temp, (ii)-swap two number without temp <br>
 6-(i)-Generate a Random number using math.random, (ii)-Math.random() returns a random floating-point <br>
 7-Convert kms to miles using javascript funtion<br>
-8-Check if a number is positive, negative or zero.<br>
-9-(i)-Check if a number is odd or even using if-else, (ii)- checking using ternary operator.<br>
-10-Check if a number is a prime-number.<br>
+8-Check if a number is positive, negative or zero.
+9-(i)-Check if a number is odd or even using if-else, (ii)- checking using ternary operator.
