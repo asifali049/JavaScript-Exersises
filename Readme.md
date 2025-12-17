@@ -10,4 +10,4 @@
 8-Check if a number is positive, negative or zero.<br>
 9-(i)-Check if a number is odd or even using if-else, (ii)- checking using ternary operator.<br>
 10-Check if a no. is a prime number.<br>
-11-Find the largest number.<br>
+11-(i)-Find the largest number &.(ii)- User define function<br>

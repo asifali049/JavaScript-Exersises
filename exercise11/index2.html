@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User define largest number</title>
+  </head>
+  <script>
+    function check(p, q, r) {
+      var a = parseFloat(prompt("Enter first number:"));
+      var b = parseFloat(prompt("Enter second number:"));
+      var c = parseFloat(prompt("Enter third number:"));
+      if (a >= b && a >= c) {
+        return a;
+      } else if (b >= a && b >= c) {
+        return b;
+      } else {
+        return c;
+      }
+    }
+    var largest = check("a, b, c");
+    console.log(`largest number is: ${largest}`);
+  </script>
+  <body></body>
+</html>
