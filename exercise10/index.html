@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    function check() {
+      var number = document.getElementById("data").value;
+      if (number == 1) {
+        console.log(`${number} is neither prime nor composite`);
+      } else if (number < 1) {
+        console.log(`${number} is not a prime number`);
+      } else {
+        for (var i = 2; i < number; i++) {
+          if (number % i == 0) {
+            var res = `${number} is not a prime number`;
+            break;
+          } else {
+            var res = `${number} is a prime number`;
+          }
+        }
+        document.getElementById("result").innerHTML = res;
+      }
+    }
+  </script>
+  <body>
+    <input type="number" id="data" placeholder="Enter a number" />
+    <button onclick="check()">check</button>
+    <h4 id="result"></h4>
+  </body>
+</html>
