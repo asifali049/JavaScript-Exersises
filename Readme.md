@@ -14,3 +14,4 @@
 12- Find the factorial of a number.<br>
 13- Find the factorial of a number using recursion.<br>
 14- Print table of user define number using function.<br>
+15- Check Armstrong Number.<br>
