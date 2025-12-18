@@ -16,3 +16,4 @@
 14- Print table of user define number using function.<br>
 15- Check Armstrong Number.<br>
 16- check if number have same last digit.<br>
+17- check polindrone using built-in function.<br>
