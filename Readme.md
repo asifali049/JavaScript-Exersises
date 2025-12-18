@@ -13,3 +13,4 @@
 11-(i)-Find the largest number &.(ii)- User define function<br>
 12- Find the factorial of a number.<br>
 13- Find the factorial of a number using recursion.<br>
+14- Print table of user define number using function.<br>
