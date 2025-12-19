@@ -22,3 +22,5 @@
 20- check whether a string contains.<br>
 20- Convert the first letter of string into uppercase.<br>
 21- Count number of vowels in string using regex.<br>
+22- Find sum of a natural numbers using recursion.<br>
+23-
