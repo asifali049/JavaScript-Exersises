@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whethera string starts & ends with certain characters</title>
+  </head>
+  <script>
+    var str = prompt("Enter a string: ");
+    var testStart = str.endsWith("Java");
+    var testEnd = str.startsWith("Hello");
+    if (testStart == true && testEnd == true) {
+      console.log("The string starts with 'Hello' and ends with 'Java'");
+    } else if (testStart == true && testEnd == false) {
+      console.log(
+        "The string does not start with 'Hello' but ends with 'Java'"
+      );
+    } else if (testStart == false && testEnd == true) {
+      console.log(
+        "The string starts with 'Hello' but does not end with 'Java'"
+      );
+    } else {
+      console.log(
+        "The string does not start with 'Hello' nor ends with 'Java'"
+      );
+    }
+  </script>
+  <body></body>
+</html>
