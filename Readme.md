@@ -19,5 +19,6 @@
 17- check polindrone using built-in function.<br>
 18- check number of occurences of a character in a string using for loop.<br>
 19- check whethera string starts & ends with certain characters.<br>
-20- check whether a string contains.
-20- Convert the first letter of string into uppercase
+20- check whether a string contains.<br>
+20- Convert the first letter of string into uppercase.<br>
+21- Count number of vowels in string using regex.<br>
